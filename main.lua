@@ -51,7 +51,7 @@ for i = 1, 10 do
     table.insert(enemies, newEnemy())
 end
 
-timer = 3
+timer = 1.5
 
 function love.draw()
     screen:apply()
